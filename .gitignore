@@ -1,0 +1,49 @@
+
+# eclipse resources #
+#####################
+.classpath
+.project
+.metadata
+.settings/
+bin/
+
+# mvn target #
+##############
+target/
+
+# compiled sources #
+####################
+*.class
+
+# packages #
+############
+*.jar
+*.war
+
+# logs #
+########
+*.log
+
+# temp #
+########
+temp/
+~*
+
+# test-output #
+###############
+test-output/
+
+# github maven defult #
+#######################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+!/.mvn/wrapper/maven-wrapper.jar
